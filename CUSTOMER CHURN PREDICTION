@@ -1,0 +1,68 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+import matplotlib.pyplot as plt
+
+# Load the dataset
+data = pd.read_csv('Churn_Modelling.csv')  
+#info about data
+print("CUSTOMER CHURN PREDICTION\n")
+print("dataset information:\n")
+print(data.info())
+print(data.head(5))
+print(data.shape)
+# Target column
+target = 'Exited'  
+
+# Drop irrelevant columns
+irrelevant_columns = ['RowNumber', 'CustomerId', 'Surname']  
+data = data.drop(columns=irrelevant_columns, errors='ignore')
+
+# Separate features and target
+X = data.drop(columns=[target])
+y = data[target]
+
+# Encode categorical features
+categorical_columns = X.select_dtypes(include=['object']).columns
+for col in categorical_columns:
+    le = LabelEncoder()
+    X[col] = le.fit_transform(X[col])
+
+# Scale numeric features
+scaler = StandardScaler()
+X = scaler.fit_transform(X)
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+print()
+# Define models
+models = {
+    "Logistic Regression": LogisticRegression(max_iter=1000),
+    "Random Forest": RandomForestClassifier(random_state=42),
+    "Gradient Boosting": GradientBoostingClassifier(random_state=42)
+}
+
+# Train and evaluate models
+accuracy_scores = []
+model_names = []
+
+for name, model in models.items():
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    acc = accuracy_score(y_test, y_pred)
+    accuracy_scores.append(acc)
+    print()
+    print(f"{name} Accuracy: {acc}")
+    model_names.append(name)
+
+# Visualization using Bar Graph
+print()
+plt.figure(figsize=(6,4))
+plt.bar(model_names, accuracy_scores, color=['skyblue', 'gray', 'pink'])
+plt.title('Model Accuracy Comparison')
+plt.ylabel('Accuracy')
+plt.xlabel('Model')
+plt.show()
