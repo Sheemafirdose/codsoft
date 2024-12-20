@@ -69,9 +69,9 @@ SVM (Support Vector Machines)<br></p>
 <h3>Datasets URL:</h3><br>
 <p>
   1. **Credit Card Fraud Detection**<br>
-   Dataset: <a href="https://www.kaggle.com/datasets/kartik2112/fraud-detection">Fraud Detection dataset</a>
+   Dataset: <a href="https://www.kaggle.com/datasets/kartik2112/fraud-detection">Fraud Detection dataset</a><br>
   2. **Customer Churn Prediction**<br>
-   Dataset: <a href="https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction">Bank Customer Churn Prediction dataset</a>
+   Dataset: <a href="https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction">Bank Customer Churn Prediction dataset</a><br>
   3. **Spam SMS Detection**<br>
-   Dataset: <a href="https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset">SMS Spam Collection dataset</a>
+   Dataset: <a href="https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset">SMS Spam Collection dataset</a><br>
 </p>
