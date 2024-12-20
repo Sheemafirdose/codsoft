@@ -1,4 +1,4 @@
-<h1>Codsoft Internship - Machine Learning Projects</h1>
+<h1>Codsoft Internship - Machine Learning</h1>
 <br>
 <h3>Overview</h3>
 <p>
@@ -52,7 +52,7 @@ Trained and evaluated Naive Bayes, Logistic Regression, and SVM classifiers for 
 Presented model evaluation results using accuracy scores and classification reports.
 <br>
 <h3>
-  <p>
+ <p>
 Technologies Used </h3>
 Python
 Pandas
@@ -67,7 +67,7 @@ SVM (Support Vector Machines)</p>
 <br>
 <h3>Datasets URL:</h3>
 <p>
- 1. **Credit Card Fraud Detection**  <br>
+1. **Credit Card Fraud Detection**  <br>
    Dataset: <a href="https://www.kaggle.com/datasets/kartik2112/fraud-detection">Fraud Detection dataset</a>
 
 2. **Customer Churn Prediction**  <br>
