@@ -23,7 +23,7 @@ irrelevant_columns = ['Unnamed: 0', 'trans_date_trans_time']
 train_data = train_data.drop(columns=irrelevant_columns, errors='ignore')
 test_data = test_data.drop(columns=irrelevant_columns, errors='ignore')
 
-# Separate features and target
+
 X_train = train_data.drop(columns=[target])
 y_train = train_data[target]
 X_test = test_data.drop(columns=[target])
