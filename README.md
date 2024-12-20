@@ -50,9 +50,10 @@ Applied feature scaling and categorical encoding for effective model training.
 Created a text classification model using TF-IDF vectorization.
 Trained and evaluated Naive Bayes, Logistic Regression, and SVM classifiers for spam SMS detection.
 Presented model evaluation results using accuracy scores and classification reports.
+<br>
 <h3>
-Technologies Used
-  </h3>
+  <p>
+Technologies Used </h3>
 Python
 Pandas
 NumPy
@@ -62,7 +63,7 @@ TfidfVectorizer
 RandomForestClassifier
 LogisticRegression
 GradientBoostingClassifier
-SVM (Support Vector Machines)
+SVM (Support Vector Machines)</p>
 <br>
 <h3>Datasets URL:</h3>
 <p>
