@@ -21,7 +21,6 @@ target = 'Exited'
 irrelevant_columns = ['RowNumber', 'CustomerId', 'Surname']  
 data = data.drop(columns=irrelevant_columns, errors='ignore')
 
-# Separate features and target
 X = data.drop(columns=[target])
 y = data[target]
 
@@ -44,8 +43,7 @@ models = {
     "Random Forest": RandomForestClassifier(random_state=42),
     "Gradient Boosting": GradientBoostingClassifier(random_state=42)
 }
-
-# Train and evaluate models
+#model training
 accuracy_scores = []
 model_names = []
 
