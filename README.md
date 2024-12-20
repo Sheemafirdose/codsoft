@@ -27,7 +27,6 @@ Trained and evaluated Naive Bayes, Logistic Regression, and SVM classifiers for 
 Presented model evaluation results using accuracy scores and classification reports.
 </p><br>
 <br>
-
 Here's a concise and effective README file for your internship at Codsoft:
 <br>
 <h2>
@@ -68,7 +67,6 @@ SVM (Support Vector Machines)<br></p>
 <br>
 <h3>Datasets URL:</h3><br>
 <p>
-
   1. **Credit Card Fraud Detection**<br>
    Dataset: <a href="https://www.kaggle.com/datasets/kartik2112/fraud-detection">Fraud Detection dataset</a>
   2. **Customer Churn Prediction**<br>
