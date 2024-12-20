@@ -29,6 +29,7 @@ Presented model evaluation results using accuracy scores and classification repo
 <br>
 
 Here's a concise and effective README file for your internship at Codsoft:
+<br>
 <h2>
 Codsoft Internship - Machine Learning Projects</h2>
 <br>
@@ -52,7 +53,7 @@ Trained and evaluated Naive Bayes, Logistic Regression, and SVM classifiers for 
 Presented model evaluation results using accuracy scores and classification reports.
 <br>
 <h3>
- <p>
+ <p><br>
 Technologies Used </h3>
 Python<br>
 Pandas<br>
@@ -65,14 +66,13 @@ LogisticRegression<br>
 GradientBoostingClassifier<br>
 SVM (Support Vector Machines)<br></p>
 <br>
-<h3>Datasets URL:</h3>
+<h3>Datasets URL:</h3><br>
 <p>
-1. **Credit Card Fraud Detection**<br>
+
+  1. **Credit Card Fraud Detection**<br>
    Dataset: <a href="https://www.kaggle.com/datasets/kartik2112/fraud-detection">Fraud Detection dataset</a>
-
-2. **Customer Churn Prediction**<br>
+  2. **Customer Churn Prediction**<br>
    Dataset: <a href="https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction">Bank Customer Churn Prediction dataset</a>
-
-3. **Spam SMS Detection**<br>
+  3. **Spam SMS Detection**<br>
    Dataset: <a href="https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset">SMS Spam Collection dataset</a>
 </p>
